@@ -1,0 +1,110 @@
+body{
+	font-family: arial,serif;
+}
+.col-xs-4-1{
+padding-left: 10px;
+	height: 100px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	border: 1px solid green;
+	position: relative;
+	overflow: auto;
+	background: gray;
+}
+.col-xs-4-2{
+padding-left: 10px;
+	height: 100px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	border: 1px solid green;
+	position: relative;
+	overflow: auto;
+	background: white;
+}
+.col-xs-4-3{
+padding-left: 10px;
+	height: 100px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	border: 1px solid green;
+	position: relative;
+	overflow: auto;
+	background: pink;
+}
+.title1{
+	position:absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background: red;
+
+}
+.title2{
+	position:absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background: yellow;
+
+}
+.title3{
+	position:absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	background: green;
+
+}
+@media(min-width: 992px){
+.col-xs-4-1{
+	width:33.333%;
+	float:left;
+}
+.col-xs-4-2{
+	width:33.333%;
+	float:left;
+}
+.col-xs-4-3{
+	width:33.333%;
+	float:left;
+}
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+.col-xs-4-1{
+	width:50%;
+	float:left;
+}
+.col-xs-4-2{
+	width:50%;
+	float:left;
+}
+.col-xs-4-3{
+	width:50%;
+	float:left;
+}
+}
+
+
+@media(max-width: 767px)
+{
+.col-xs-4-1{
+	width:100%;
+	float:left;
+}
+.col-xs-4-2{
+	width:100%;
+	float:left;
+}
+.col-xs-4-3{
+	width:100%;
+	float:left;
+}
+}
